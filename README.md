@@ -20,3 +20,4 @@ An interactive, cinematic birthday website crafted with love and memories.
    - Interactive polaroid card grid of close friends.
    - Live auto-syncing directly with Google Forms via published CSV.
    - Detailed modal cards featuring personalized Q&A, inside jokes, and birthday wishes.
+
