@@ -305,7 +305,7 @@ async function loadCSV(url) {
             const val = (row[c] || '').trim();
             if (!val) continue;
 
-            if (h.includes('your name') && val) {
+            if ((h.includes('your name') || h.includes('name')) && !h.includes('nickname') && val) {
               name = val;
             } else if (h.includes('one word')) {
               entry.oneWord = val;
